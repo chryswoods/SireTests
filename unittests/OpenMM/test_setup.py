@@ -82,9 +82,9 @@ def test_setup(verbose = False):
 
     assert_almost_equal( sire_nrg, openmm_nrg, 1 )
 
-def test_nve(verbose = False):
+#def test_nve(verbose = False):
 
-    sire_nrg = system.energy().value()
+#    sire_nrg = system.energy().value()
 
     # build OpenMM NVE integrator
 
